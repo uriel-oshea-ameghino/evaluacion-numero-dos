@@ -1,3 +1,4 @@
+import Interface.Figura;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -19,7 +20,7 @@ public class FigurasTest{
 
     @Test
     public void calcularPerimetro() {
-        Figura fig = new Circulo(10);
+        Figura fig = (Figura) new Circulo(10);
 
         Assert.assertEquals(Math.PI*10, fig.perimetro(),0);
 

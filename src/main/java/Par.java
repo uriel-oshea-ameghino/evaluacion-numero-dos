@@ -3,11 +3,23 @@
  */
 public class Par {
 
-    private int first;
-    private int second;
+    public int first;
+    public int second;
 
     public Par(int i, int i1) {
+        this.first = i;
+        this.second = i1;
+        }
+
+    public Par(String casa, int i1) {
+
+        this.first = first();
+        this.second = second();
+
+        
+
     }
+
 
     public int first() {
         return this.first;
@@ -16,4 +28,5 @@ public class Par {
     public int second() {
         return this.second;
     }
+
 }

@@ -6,7 +6,7 @@ import org.omg.CORBA.DoubleHolder;
  * Created by damian on 02/09/16.
  */
 public class ParesOrdenadosTest {
-    /*
+
     @Test
     public void crearParOrdenado(){
         //Tipar la Clase Par
@@ -22,7 +22,7 @@ public class ParesOrdenadosTest {
 
         Assert.assertEquals(dosTres.first(), "casa");
     }
-
+/*
     @Test
     public void elSegundo(){
         Cuadrado c = new Cuadrado(2);
@@ -45,5 +45,6 @@ public class ParesOrdenadosTest {
         //acceder a la base del rectangulo que esta dentro de la variable parGroso
         Assert.assertEquals(parGroso , r.area(),0);
 
-    }*/
+    }
+*/
 }

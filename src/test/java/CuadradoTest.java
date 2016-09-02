@@ -45,5 +45,8 @@ public class CuadradoTest {
         List<Cuadrado> cuadrados = Arrays.asList(cuadrado1,cuadrado2,cuadrado3);
 
         Assert.assertEquals(113, cuadrado1.sumarAreasDeCuadrados(cuadrados), 0);
-    }
+
+   }
+
 }
+
